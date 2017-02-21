@@ -1,0 +1,3 @@
+#fortuneQuiz .question  {width:500px;display: block;text-align: center;margin:50px auto;border:1px solid #666;border-radius: 5px;padding:20px;}
+
+#fortuneQuiz .question > div {width:100px;display:inline-block;}
