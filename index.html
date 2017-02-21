@@ -6,127 +6,141 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
-    <title>For Counting</title>
+    <title>Magical Fortune</title>
   </head>
   <body>
     <main>
+      <div class="container-fluid jumbotron" >
+        <h1>Magical Fortune Teller</h1>
+        <h2>Have your magical future foretold</h2>
+      </div>
+      <img id="tellerImage" src="img/teller.gif" alt="black and white image of fortune teller with crystal ball">
       <form id="fortuneQuiz" >
         <div class="question">
           <h3>What is your sign?</h3>
           <div class="form-group">
             <label for="aries">Aries</label>
-            <input class="form-control" type="checkbox" name="sign" id="aries" value="aries">
+            <input class="form-control" type="radio" name="sign" id="aries" value="aries">
           </div>
           <div class="form-group">
             <label for="taurus">Taurus</label>
-            <input class="form-control" type="checkbox" name="sign" id="taurus" value="taurus">
+            <input class="form-control" type="radio" name="sign" id="taurus" value="taurus">
           </div>
           <div class="form-group">
             <label for="gemini">Gemini</label>
-            <input class="form-control" type="checkbox" name="sign" id="gemini" value="gemini">
+            <input class="form-control" type="radio" name="sign" id="gemini" value="gemini">
           </div>
           <div class="form-group">
             <label for="cancer">Cancer</label>
-            <input class="form-control" type="checkbox" name="sign" id="cancer" value="cancer">
+            <input class="form-control" type="radio" name="sign" id="cancer" value="cancer">
           </div>
           <div class="form-group">
             <label for="leo">Leo</label>
-            <input class="form-control" type="checkbox" name="sign" id="leo" value="leo">
+            <input class="form-control" type="radio" name="sign" id="leo" value="leo">
           </div>
           <div class="form-group">
             <label for="virgo">Virgo</label>
-            <input class="form-control" type="checkbox" name="sign" id="virgo" value="virgo">
+            <input class="form-control" type="radio" name="sign" id="virgo" value="virgo">
           </div>
           <div class="form-group">
             <label for="libra">Libra</label>
-            <input class="form-control" type="checkbox" name="sign" id="libra" value="libra">
+            <input class="form-control" type="radio" name="sign" id="libra" value="libra">
           </div>
           <div class="form-group">
             <label for="scorpio">Scorpio</label>
-            <input class="form-control" type="checkbox" name="sign" id="scorpio" value="scorpio">
+            <input class="form-control" type="radio" name="sign" id="scorpio" value="scorpio">
           </div>
           <div class="form-group">
             <label for="sagittarius">Sagittarius</label>
-            <input class="form-control" type="checkbox" name="sign" id="sagittarius" value="sagittarius">
+            <input class="form-control" type="radio" name="sign" id="sagittarius" value="sagittarius">
           </div>
           <div class="form-group">
             <label for="capricorn">Capricorn</label>
-            <input class="form-control" type="checkbox" name="sign" id="capricorn" value="capricorn">
+            <input class="form-control" type="radio" name="sign" id="capricorn" value="capricorn">
           </div>
           <div class="form-group">
             <label for="aquarius">Aquarius</label>
-            <input class="form-control" type="checkbox" name="sign" id="aquarius" value="aquarius">
+            <input class="form-control" type="radio" name="sign" id="aquarius" value="aquarius">
           </div>
           <div class="form-group">
             <label for="pisces">Pisces</label>
-            <input class="form-control" type="checkbox" name="sign" id="pisces" value="pisces">
+            <input class="form-control" type="radio" name="sign" id="pisces" value="pisces">
           </div>
         </div>
         <div class="question">
           <h3>Seen Any Magical Creatures?</h3>
           <div>
             <label for="leprechauns">Leprechauns</label>
-            <input class="form-control" type="checkbox" id="leprechauns" name="magicalCreatures" value="leprechauns">
+            <input class="form-control" type="radio" id="leprechauns" name="magicalCreatures" value="leprechauns">
           </div>
           <div>
             <label for="unicorn">Unicorns</label>
-            <input class="form-control" type="checkbox" id="unicorn" name="magicalCreatures" value="unicorn">
+            <input class="form-control" type="radio" id="unicorn" name="magicalCreatures" value="unicorn">
           </div>
           <div>
             <label for="pixies">Pixies</label>
-            <input class="form-control" type="checkbox" id="pixies" name="magicalCreatures" value="pixies">
+            <input class="form-control" type="radio" id="pixies" name="magicalCreatures" value="pixies">
           </div>
           <div>
             <label for="dragons">Dragons</label>
-            <input class="form-control" type="checkbox" id="dragons" name="magicalCreatures" value="dragons">
+            <input class="form-control" type="radio" id="dragons" name="magicalCreatures" value="dragons">
           </div>
           <div>
             <label for="witches">Witches</label>
-            <input class="form-control" type="checkbox" id="witches" name="magicalCreatures" value="witches">
+            <input class="form-control" type="radio" id="witches" name="magicalCreatures" value="witches">
           </div>
           <div>
             <label for="gryphons">Gryphons</label>
-            <input class="form-control" type="checkbox" id="gryphons" name="magicalCreatures" value="gryphons">
+            <input class="form-control" type="radio" id="gryphons" name="magicalCreatures" value="gryphons">
           </div>
         </div>
         <div class="question">
           <h3>Been to any magical places?</h3>
           <div>
             <label for="enchantedForest">Enchanted Forest</label>
-            <input class="form-control" type="checkbox" id="enchantedForest" name="magicalCreatures" value="enchantedForest">
+            <input class="form-control" type="radio" id="enchantedForest" name="magicalPlace" value="enchantedForest">
           </div>
           <div>
             <label for="youthFountain">Fountain of Youth</label>
-            <input class="form-control" type="checkbox" id="youthFountain" name="magicalCreatures" value="youthFountain">
+            <input class="form-control" type="radio" id="youthFountain" name="magicalPlace" value="youthFountain">
           </div>
           <div>
             <label for="hauntedHouse">Haunted House</label>
-            <input class="form-control" type="checkbox" id="hauntedHouse" name="magicalCreatures" value="hauntedHouse">
+            <input class="form-control" type="radio" id="hauntedHouse" name="magicalPlace" value="hauntedHouse">
           </div>
           <div>
             <label for="hogwarts">Hogwarts</label>
-            <input class="form-control" type="checkbox" id="hogwarts" name="magicalCreatures" value="hogwarts">
+            <input class="form-control" type="radio" id="hogwarts" name="magicalPlace" value="hogwarts">
           </div>
         </div>
         <div class="question">
           <h3>Spell Casting?</h3>
           <div>
             <label for="spell">Spells</label>
-            <input class="form-control" type="checkbox" id="spell" name="spells" value="spell">
+            <input class="form-control" type="radio" id="spell" name="spells" value="spell">
           </div>
           <div>
             <label for="astroProject">Astro Project</label>
-            <input class="form-control" type="checkbox" id="astroProject" name="spells" value="astroProject">
+            <input class="form-control" type="radio" id="astroProject" name="spells" value="astroProject">
           </div>
           <div>
             <label for="voodooDoll">Voodoo Dolls?</label>
-            <input class="form-control" type="checkbox" id="voodooDoll" name="spells" value="voodooDoll">
+            <input class="form-control" type="radio" id="voodooDoll" name="spells" value="voodooDoll">
           </div>
         </div>
         <div>
           <input class="form-control" type="submit" name="name" value="Tell me">
         </div>
       </form>
+      <div id="fortune">
+
+        <div class="fortunePlaces">
+          <div class="fortuneText">
+            <p>Awww, I'm sensing in the future... Some time in the <span class="fortuneTime"></span>... <span class="fortunePlace"></span>... <span class="fortuneCreature"></span></p>
+          </div>
+        </div>
+
+      </div>
     </main>
   </body>
 </html>
